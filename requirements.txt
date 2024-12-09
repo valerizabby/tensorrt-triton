@@ -1,2 +1,3 @@
 transformers
 torch
+onnx==1.17.0

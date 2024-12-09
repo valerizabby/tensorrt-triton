@@ -38,3 +38,7 @@
     git lfs install
     git clone https://huggingface.co/ai-forever/ruBert-base
 ```
+
+## TensorRT
+
+Запустим контейнер, чтобы в нем конвертнуть модели

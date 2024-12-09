@@ -5,11 +5,11 @@ from transformers import AutoModel, AutoTokenizer
 from torch import nn
 
 # Параметры модели
-MODEL_NAME = "../ruBert"  # Локальная директория с моделью
+MODEL_NAME = "../ruBert-base"  # Локальная директория с моделью
 HIDDEN_DIM = 768  # Размерность скрытого слоя (зависит от config.json вашей модели)
 OUTPUT_DIM = 128  # Размерность эмбеддингов
 
-# Определение класса модели
+
 class TransformerONNX(nn.Module):
     def __init__(self):
         super(TransformerONNX, self).__init__()
